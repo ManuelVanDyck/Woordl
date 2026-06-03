@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-// Highly curated list of common, recognizable Dutch 5-letter words.
+// Expanded curated list of common, recognizable Dutch 5-letter words.
 // Ideal for both daily puzzle selection (solution) and guess validation.
 const RAW_WORDS = [
   "actie", "adres", "advies", "afval", "alarm", "album", "alles", "altijd", "amper", "angst", "anker", 
@@ -159,7 +159,23 @@ const RAW_WORDS = [
   "wilde", "wilds", "wilg", "wille", "willen", "wilt", "wimpel", "wimp", "wind", "winden", "winds", 
   "windt", "wing", "wink", "winkel", "winnen", "winst", "winter", "wipje", "wippe", "wipst", "wisje", 
   "wiske", "wissel", "wisse", "wisser", "wist", "wiste", "woud", "woude", "wulf", "wulps", "wurg", 
-  "wurgt", "wurmt"
+  "wurgt", "wurmt",
+
+  // New expansion additions (including spoel, zwijg, stomp, etc.)
+  "spoel", "zwijg", "stomp", "stoel", "strak", "straf", "strip", "vogel", "feest", "schip", "vlees", 
+  "droom", "graat", "grijp", "koers", "kaart", "jeugd", "hoofd", "groot", "kleur", "klopt", "kleed", 
+  "klomp", "kloot", "kloof", "kloon", "klink", "klant", "klaar", "klank", "kiest", "keuze", "ketel", 
+  "kever", "kerel", "kapot", "kabel", "kader", "jager", "idool", "draad", "drank", "drink", "dring", 
+  "dwars", "draai", "broek", "blauw", "blind", "bloed", "bloem", "bocht", "bodem", "brood", "bruin", 
+  "buurt", "beter", "bende", "beurt", "bever", "brand", "brief", "angst", "avond", "basis", "beeld", 
+  "begin", "vogel", "water", "wind", "vuur", "aarde", "steun", "stelt", "stemt", "stoot", "stunt", 
+  "strik", "strak", "straf", "strip", "sprak", "stook", "stunt", "stier", "snuit", "smaak", "smart", 
+  "smeek", "smelt", "snoep", "snoer", "spook", "spoor", "sport", "stank", "stang", "stoot", "stuur", 
+  "steen", "stijf", "stijl", "stijg", "strik", "stroom", "stunt", "stier", "taart", "trein", "trots", 
+  "trouw", "wijze", "woest", "woord", "zaad", "zacht", "zadel", "zand", "zeep", "zeer", "zegel", 
+  "zegen", "zeven", "ziek", "ziel", "zien", "ziet", "zijde", "zijn", "zingt", "zinkt", "zoals", 
+  "zoekt", "zoen", "zoet", "zomer", "zonde", "zoon", "zorg", "zorgt", "zout", "zwaar", "zwak", 
+  "zwart", "zwemt", "zweet", "zwerm", "zwerf"
 ];
 
 // Deduplicate, filter exactly 5 letter words with lowercase-only letters, and sort
