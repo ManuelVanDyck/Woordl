@@ -31,7 +31,7 @@ export default function Navbar({ onOpenHelp, onOpenStats, isDaily }: NavbarProps
         {/* Center: Title */}
         <div className="flex flex-col items-center">
           <h1 className="text-xl md:text-2xl font-black tracking-widest text-white flex items-center gap-1 font-mono">
-            WOORDLE<span className="text-emerald-400">.NL</span>
+            WOORDLE
           </h1>
           {isDaily && (
             <span className="text-[9px] uppercase tracking-widest font-black text-slate-400 flex items-center gap-1 mt-0.5 font-sans">
