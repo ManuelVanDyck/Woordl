@@ -1,0 +1,6 @@
+{
+  "name": "Nederlandse Woordle",
+  "description": "Een dagelijks Nederlands 5-letter woordraadspel dat speciaal is geoptimaliseerd voor iPhone en desktop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
