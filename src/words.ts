@@ -175,7 +175,23 @@ const RAW_WORDS = [
   "trouw", "wijze", "woest", "woord", "zaad", "zacht", "zadel", "zand", "zeep", "zeer", "zegel", 
   "zegen", "zeven", "ziek", "ziel", "zien", "ziet", "zijde", "zijn", "zingt", "zinkt", "zoals", 
   "zoekt", "zoen", "zoet", "zomer", "zonde", "zoon", "zorg", "zorgt", "zout", "zwaar", "zwak", 
-  "zwart", "zwemt", "zweet", "zwerm", "zwerf"
+  "zwart", "zwemt", "zweet", "zwerm", "zwerf",
+
+  // Additional vocabulary expansions requested by user (e.g. lasso) and other common 5-letter Dutch terms:
+  "lasso", "pizza", "sushi", "depot", "credo", "villa", "zebra", "panna", "plank", "kiosk", "blits",
+  "brons", "lolly", "panty", "retro", "cliche", "uniek", "sfeer", "metro", "salsa", "tango", "snack",
+  "radar", "badge", "lobby", "ninja", "tempo", "gamba", "bacon", "hobby", "humus", "micro", "pixel",
+  "plaza", "salto", "sonar", "turbo", "wafel", "vlaai", "zolder", "zucht", "arena", "donut", "duplo",
+  "fabel", "joker", "sauna", "virus", "kogel", "lepel", "bezem", "graan", "kroon", "stier", "taboe",
+  "bidet", "blond", "bruto", "cacao", "donut", "duplo", "enkel", "fabel", "fiche", "grind", "hazel",
+  "index", "joker", "kabel", "kegel", "kiosk", "koran", "krill", "latex", "lolly", "mafia", "metro",
+  "nozem", "oxide", "pampa", "porie", "preek", "rayon", "rebel", "regie", "regio", "rotor", "ruzie",
+  "sabel", "salie", "salon", "samba", "sauna", "scene", "sekte", "serum", "sfeer", "sigaar", "sinus",
+  "spion", "tabel", "tango", "tarot", "telex", "tenor", "tenue", "thuis", "titel", "toga", "token",
+  "tolk", "tombe", "tonic", "tosti", "totem", "truc", "turbo", "uniek", "urine", "vader", "video",
+  "virus", "vlaag", "vlies", "vloed", "vloer", "vloot", "vogel", "voogd", "vorst", "vraag", "vrede",
+  "vrees", "vrome", "vrouw", "wagon", "wapen", "wasem", "water", "wezel", "wieg", "wiel", "wiens",
+  "wijze"
 ];
 
 // Deduplicate, filter exactly 5 letter words with lowercase-only letters, and sort
